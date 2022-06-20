@@ -1,4 +1,4 @@
-public class fit HelloWorld {
+public class HelloWorld {
 
     public static void main(String[] args) {
 
