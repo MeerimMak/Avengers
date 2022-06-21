@@ -1,3 +1,5 @@
+package aidar;
+
 public class ClassAidar {
     public static void main(String[] args) {
         System.out.println("My name is Aidar");
