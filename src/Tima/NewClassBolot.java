@@ -5,6 +5,7 @@ public class NewClassBolot {
         System.out.println("bag");
         System.out.println("hfbksjfnma");
         System.out.println("as;basikasoirnf");
+
     }
 
 }
