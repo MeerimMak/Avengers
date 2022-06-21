@@ -1,4 +1,4 @@
-package sagyn;
+package atabek;
 
 public class Atabek {
     public static void main(String[] args) {
