@@ -1,0 +1,266 @@
+Index: src/kyial/NewClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package kyial;\r\n\r\npublic class NewClass {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"My first branch\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/kyial/NewClass.java	(revision 725478651f50ce1650d7d5b11522195f240c7554)
++++ src/kyial/NewClass.java	(date 1655830786395)
+@@ -2,6 +2,8 @@
+ 
+ public class NewClass {
+     public static void main(String[] args) {
++
+         System.out.println("My first branch");
++        System.out.println("Kyial");
+     }
+ }
+Index: src/doha/Doha.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/doha/Doha.java	(date 1655830786394)
++++ src/doha/Doha.java	(date 1655830786394)
+@@ -0,0 +1,7 @@
++package doha;
++
++public class Doha {
++    public static void main(String[] args) {
++        System.out.println("Hello to everyone");
++    }
++}
+Index: src/nazgul/NewClassNazgul.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package nazgul;\r\n\r\npublic class NewClassNazgul {\r\n    public static void main(String[] args) {\r\n\r\n        System.out.println(\"Hello my name is Nazgul\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/nazgul/NewClassNazgul.java	(revision 725478651f50ce1650d7d5b11522195f240c7554)
++++ src/nazgul/NewClassNazgul.java	(date 1655830786395)
+@@ -4,5 +4,6 @@
+     public static void main(String[] args) {
+ 
+         System.out.println("Hello my name is Nazgul");
++        System.out.println("fjhksjhkjashkja");
+     }
+ }
+Index: src/begimai/Begimai.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/begimai/Begimai.java	(date 1655830786394)
++++ src/begimai/Begimai.java	(date 1655830786394)
+@@ -0,0 +1,7 @@
++package begimai;
++
++public class Begimai {
++    public static void main(String[] args) {
++        System.out.println("Hello my name is Begimai");
++    }
++}
+Index: src/Tima/NewClassBolot.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tima;\r\n\r\npublic class NewClassBolot {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"bag\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Tima/NewClassBolot.java	(revision 725478651f50ce1650d7d5b11522195f240c7554)
++++ src/Tima/NewClassBolot.java	(date 1655830786378)
+@@ -3,5 +3,6 @@
+ public class NewClassBolot {
+     public static void main(String[] args) {
+         System.out.println("bag");
++        System.out.println("hfbksjfnma");
+     }
+ }
+Index: src/AlishClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/AlishClass.java	(date 1655830786377)
++++ src/AlishClass.java	(date 1655830786377)
+@@ -0,0 +1,5 @@
++public class AlishClass {
++    public static void main(String[] args) {
++        System.out.println("My name is Alisher!");
++    }
++}
+Index: src/baha/Baha.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package baha;\r\n\r\npublic class Baha {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"My name is Bakhtiyar\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/baha/Baha.java	(revision 725478651f50ce1650d7d5b11522195f240c7554)
++++ src/baha/Baha.java	(date 1655830786393)
+@@ -3,5 +3,6 @@
+ public class Baha {
+     public static void main(String[] args) {
+         System.out.println("My name is Bakhtiyar");
++        System.out.println("new commit");
+     }
+ }
+Index: src/nazgul/SecondClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/nazgul/SecondClass.java	(date 1655830786395)
++++ src/nazgul/SecondClass.java	(date 1655830786395)
+@@ -0,0 +1,7 @@
++package nazgul;
++
++public class SecondClass {
++    public static void main(String[] args) {
++        System.out.println("Hello World");
++    }
++}
+Index: .idea/codeStyles/Project.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codeStyles/Project.xml	(date 1655830786377)
++++ .idea/codeStyles/Project.xml	(date 1655830786377)
+@@ -0,0 +1,7 @@
++<component name="ProjectCodeStyleConfiguration">
++  <code_scheme name="Project" version="173">
++    <ScalaCodeStyleSettings>
++      <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
++    </ScalaCodeStyleSettings>
++  </code_scheme>
++</component>
+\ No newline at end of file
+Index: .idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codeStyles/codeStyleConfig.xml	(date 1655830786377)
++++ .idea/codeStyles/codeStyleConfig.xml	(date 1655830786377)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
+Index: src/sagyn/SagynClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/sagyn/SagynClass.java	(date 1655830786396)
++++ src/sagyn/SagynClass.java	(date 1655830786396)
+@@ -0,0 +1,8 @@
++package sagyn;
++
++public class SagynClass {
++    public static void main(String[] args) {
++
++        System.out.println("Hello! My name is Sagyn");
++    }
++}
+Index: src/elvira/MyClassElvira.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/elvira/MyClassElvira.java	(date 1655830786394)
++++ src/elvira/MyClassElvira.java	(date 1655830786394)
+@@ -0,0 +1,9 @@
++package elvira;
++
++public class MyClassElvira {
++    public static void main(String[] args) {
++        System.out.println("Hello");
++        System.out.println("El'vira");
++
++    }
++}
+Index: src/Mars/NewClassMars.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Mars/NewClassMars.java	(date 1655830786378)
++++ src/Mars/NewClassMars.java	(date 1655830786378)
+@@ -0,0 +1,5 @@
++public class NewClassMars {
++    public static void main(String[] args) {
++        System.out.println("Hello World");
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"70803403-72f3-4503-9933-eeba00652dc3\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/.gitignore\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"yrysbek\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2AqOY56oQ9m7dgUO9WFb7RrHfvB\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"compactDirectories\" value=\"true\" />\r\n    <option name=\"flattenPackages\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showExcludedFiles\" value=\"false\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showModules\" value=\"false\" />\r\n    <option name=\"showVisibilityIcons\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"Git.Branch.Popup.ShowAllRemotes\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"Shelf.Project.Settings\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"Avengers\" />\r\n      <option name=\"VM_PARAMETERS\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" />\r\n      <option name=\"WORKING_DIRECTORY\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"Avengers\" />\r\n      <option name=\"filePath\" />\r\n      <option name=\"vmParameters\" />\r\n      <option name=\"alternativeJrePath\" />\r\n      <option name=\"programParameters\" />\r\n      <option name=\"passParentEnvs\" value=\"true\" />\r\n      <option name=\"workingDirectory\" />\r\n      <option name=\"isAlternativeJrePathEnabled\" value=\"false\" />\r\n      <option name=\"VM_PARAMETERS\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" />\r\n      <option name=\"WORKING_DIRECTORY\" />\r\n      <option name=\"filePath\" />\r\n      <option name=\"vmParameters\" />\r\n      <option name=\"alternativeJrePath\" />\r\n      <option name=\"programParameters\" />\r\n      <option name=\"passParentEnvs\" value=\"true\" />\r\n      <option name=\"workingDirectory\" />\r\n      <option name=\"isAlternativeJrePathEnabled\" value=\"false\" />\r\n      <option name=\"VM_PARAMETERS\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" />\r\n      <option name=\"WORKING_DIRECTORY\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"70803403-72f3-4503-9933-eeba00652dc3\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1655733692855</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1655733692855</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Paths\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"dir:D:/Avengers/src\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"User\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"asan99\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"*\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state width=\"202\" height=\"442\" key=\"Diff.GoToChangePopup\" timestamp=\"1655741747076\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"202\" height=\"442\" key=\"Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728\" timestamp=\"1655741747076\" />\r\n    <state x=\"129\" y=\"54\" key=\"DiffContextDialog\" timestamp=\"1655741759698\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"129\" y=\"54\" key=\"DiffContextDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1655741759698\" />\r\n    <state x=\"184\" y=\"0\" key=\"SettingsEditor\" timestamp=\"1655828251224\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"184\" y=\"0\" key=\"SettingsEditor/0.0.1366.728@0.0.1366.728\" timestamp=\"1655828251224\" />\r\n    <state x=\"530\" y=\"276\" key=\"VCS.ChangelistChooser\" timestamp=\"1655827021355\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"530\" y=\"276\" key=\"VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728\" timestamp=\"1655827021355\" />\r\n    <state x=\"275\" y=\"96\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1655741972867\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"275\" y=\"96\" key=\"Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728\" timestamp=\"1655741972867\" />\r\n    <state x=\"463\" y=\"168\" key=\"git4idea.history.wholeTree.VcsStructureChooser\" timestamp=\"1655824144452\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"463\" y=\"168\" key=\"git4idea.history.wholeTree.VcsStructureChooser/0.0.1366.728@0.0.1366.728\" timestamp=\"1655824144452\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 725478651f50ce1650d7d5b11522195f240c7554)
++++ .idea/workspace.xml	(date 1655831010227)
+@@ -46,11 +46,10 @@
+   <component name="ProjectViewState">
+     <option name="compactDirectories" value="true" />
+     <option name="flattenPackages" value="true" />
+-    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="foldersAlwaysOnTop" value="false" />
+     <option name="showExcludedFiles" value="false" />
+     <option name="showLibraryContents" value="true" />
+     <option name="showModules" value="false" />
+-    <option name="showVisibilityIcons" value="true" />
+   </component>
+   <component name="PropertiesComponent">
+     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+@@ -162,6 +161,10 @@
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="WindowStateProjectService">
++    <state x="475" y="221" key="#Scopes" timestamp="1655830204456">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="475" y="221" key="#Scopes/0.0.1366.728@0.0.1366.728" timestamp="1655830204456" />
+     <state width="202" height="442" key="Diff.GoToChangePopup" timestamp="1655741747076">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+Index: src/fetchPractice/HelloWorldFetch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/fetchPractice/HelloWorldFetch.java	(date 1655830786395)
++++ src/fetchPractice/HelloWorldFetch.java	(date 1655830786395)
+@@ -0,0 +1,8 @@
++package fetchPractice;
++
++public class HelloWorldFetch {
++
++    public static void main(String[] args) {
++        System.out.println("HAHAHAHAHAHAHA");
++    }
++}
+Index: src/aidar/ClassAidar.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/aidar/ClassAidar.java	(date 1655830786393)
++++ src/aidar/ClassAidar.java	(date 1655830786393)
+@@ -0,0 +1,7 @@
++package aidar;
++
++public class ClassAidar {
++    public static void main(String[] args) {
++        System.out.println("My name is Aidar");
++    }
++}
+diff --git src/aidar/.aidar.gitignore src/aidar/.aidar.gitignore
+new file mode 100644
